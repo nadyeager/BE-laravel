@@ -172,9 +172,14 @@
                         "type": "integer",
                         "example": 1
                     },
-                    "name": {
+                    "nama": {
                         "type": "string",
-                        "example": "Nama Data"
+                        "example": "Nama Produk"
+                    },
+                    "harga": {
+                        "type": "number",
+                        "format": "float",
+                        "example": 15000
                     },
                     "created_at": {
                         "type": "string",
